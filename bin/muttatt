@@ -1,0 +1,9 @@
+#!/bin/bash
+while true; do
+	ping 8.8.8.8 | while read line; do
+		if [[ $line == *bytes* ]]; then
+			~/scripts/mutt/muttattach.sh
+		fi
+	done
+	sleep 30
+done
