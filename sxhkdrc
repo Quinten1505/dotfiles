@@ -38,6 +38,9 @@ XF86Audio{Lower,Raise}Volume
 XF86AudioMute
 	toggle_mute
 
+super + shift + {i, o}
+	xbacklight {-dec 10, -inc 10}
+
 super + d
 	xwobflock
 
