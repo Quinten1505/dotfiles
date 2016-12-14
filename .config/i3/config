@@ -127,7 +127,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-assign [class="Google-chrome"] $ws2
+assign [class="Firefox"] $ws2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -170,7 +170,7 @@ bindsym $mod+r mode "resize"
 #}
 
 #custom keybindings
-bindsym $mod+Shift+f exec google-chrome
+bindsym $mod+Shift+f exec firefox
 
 #startup programs
 exec compton
@@ -181,7 +181,7 @@ exec_always feh --bg-scale ~/.wallpapers/wallpaper1.webp
 for_window [class="^.*"] border pixel 3
 
 #gaps
-gaps inner 10
-gaps outer 10
-smart_gaps on
-smart_borders on
+#gaps inner 10
+#gaps outer 10
+#smart_gaps on
+#smart_borders on
