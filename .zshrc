@@ -48,7 +48,7 @@ zplug "plugins/command-not-found", from:oh-my-zsh
 # Fish-style autosuggestions
 zplug "zsh-users/zsh-autosuggestions"
 # Fish-style highlighting
-zplug "zsh-users/zsh-syntax-highlighting", nice:19
+zplug "zsh-users/zsh-syntax-highlighting", defer:1
 # Additional completion definitions for Zsh
 zplug "zsh-users/zsh-completions"
 # Bullet train theme
