@@ -1,1 +1,0 @@
-/home/olli/lib/rtv/img.sh

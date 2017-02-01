@@ -1,4 +1,0 @@
-#!/bin/bash
-ssh melkki "programming/irssi-notify/irssi-notify.sh" | while read line; do
-	notify-send "$line"
-done

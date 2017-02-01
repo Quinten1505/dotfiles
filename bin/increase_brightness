@@ -1,7 +1,0 @@
-#!/bin/bash
-if [[ $(query_light) -lt 100 ]]; then
-	xbacklight -inc 10
-fi
-#notify-no-icon "♪ $(amixer get Master | tail -1 | awk '{print $5}' | tr -d '[]')"
-icon=$BRI_ICON
-notify-no-icon "$icon $(query_light)"

@@ -1,1 +1,0 @@
-urxvtc -e sh -c 'ssh -t robopop "bin/scropen newsbeuter; bash"'

@@ -1,2 +1,0 @@
-#!/bin/bash
-vpn none none $HOME/sparkleshark/museo-wallpaper "sudo pon museo debug dump logfd 2 nodetach"

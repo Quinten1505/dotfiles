@@ -1,8 +1,0 @@
-#!/bin/bash
-
-tmp="$(xbacklight | grep -o [0-9]* | head -1)"
-part="$(echo $(($tmp / 10)))"
-light="$(echo $part | grep -o [0-9]* | head -1)" 
-light="$(( ($light + 1) * 10 ))"
-echo $light
-

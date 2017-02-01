@@ -1,3 +1,0 @@
-#!/bin/bash
-setxkbmap -option 'caps:ctrl_modifier' -option 'lv3:ralt_switch'
-xcape -e 'Caps_Lock=Escape'

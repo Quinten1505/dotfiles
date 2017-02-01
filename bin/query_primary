@@ -1,2 +1,0 @@
-#!/bin/bash
-cat /tmp/xrandr_output | grep 'primary' | awk '{print $1}'

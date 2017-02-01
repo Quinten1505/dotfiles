@@ -1,2 +1,0 @@
-#!/bin/bash
-livestreamer -p mpv twitch.tv/$1 high

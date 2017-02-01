@@ -1,1 +1,0 @@
-urxvtc -e sh -c 'tmux new-session "ssh -t robopop ./robopop/dashboard.py"'
